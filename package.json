@@ -1,7 +1,7 @@
 {
   "name": "werpcjs",
   "description": "JSON-RPC 2.0 authentication using the WeYouMe protocol blockchain authorities",
-  "version": "1.2.129",
+  "version": "1.2.130",
   "license": "MIT",
   "main": "./lib/index",
   "typings": "./lib/index",
@@ -18,7 +18,7 @@
     "node": ">=8"
   },
   "dependencies": {
-    "wecryptojs": "^1.2.35"
+    "wecryptojs": "^1.2.38"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.47",
