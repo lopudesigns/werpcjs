@@ -1,15 +1,15 @@
 {
   "name": "werpcjs",
   "description": "JSON-RPC 2.0 authentication using the WeYouMe protocol blockchain authorities",
-  "version": "1.2.15",
+  "version": "1.2.3",
   "license": "MIT",
   "main": "./lib/index",
   "typings": "./lib/index",
   "scripts": {
     "test": "make ci-test",
     "prepublish": "make lib",
-    "push": "./scripts/push.sh",
-    "pull": "./scripts/pull.sh"
+    "push": "git add . ; git commit -m 'ready' ; git push origin dev",
+    "pull": "git pull origin dev"
   },
   "files": [
     "lib/*"
@@ -18,7 +18,7 @@
     "node": ">=8"
   },
   "dependencies": {
-    "wecryptojs": "^1.2.38"
+    "wecryptojs": "latest"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.47",
